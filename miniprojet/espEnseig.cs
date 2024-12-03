@@ -16,5 +16,10 @@ namespace miniprojet
         {
             InitializeComponent();
         }
+
+        private void textBox_usrname_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

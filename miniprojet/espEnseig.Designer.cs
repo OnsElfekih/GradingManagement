@@ -62,7 +62,7 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(174, 56);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -107,10 +107,11 @@
             // textBox_usrname
             // 
             this.textBox_usrname.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_usrname.Location = new System.Drawing.Point(208, 266);
+            this.textBox_usrname.Location = new System.Drawing.Point(175, 265);
             this.textBox_usrname.Name = "textBox_usrname";
             this.textBox_usrname.Size = new System.Drawing.Size(325, 27);
             this.textBox_usrname.TabIndex = 19;
+            this.textBox_usrname.TextChanged += new System.EventHandler(this.textBox_usrname_TextChanged);
             // 
             // textBox_password
             // 
@@ -189,7 +190,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox2);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "espEnseig";
             this.Text = "Login Enseignant";
             this.panel1.ResumeLayout(false);

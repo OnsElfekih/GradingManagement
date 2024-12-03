@@ -41,7 +41,7 @@ namespace miniprojet
             errorMessageUsername = string.Empty;
             errorMessagePassword = string.Empty;
 
-            if (username != "admin")
+            if (username != "adminadmin")
             {
                 errorMessageUsername = "Le nom d'utilisateur est incorrect.";
                 textBox_usrname.BackColor = Color.Pink;
