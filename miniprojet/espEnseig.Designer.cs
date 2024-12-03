@@ -107,7 +107,7 @@
             // textBox_usrname
             // 
             this.textBox_usrname.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_usrname.Location = new System.Drawing.Point(175, 265);
+            this.textBox_usrname.Location = new System.Drawing.Point(208, 266);
             this.textBox_usrname.Name = "textBox_usrname";
             this.textBox_usrname.Size = new System.Drawing.Size(325, 27);
             this.textBox_usrname.TabIndex = 19;
